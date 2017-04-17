@@ -1,0 +1,42 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'FiraSans-Regular';
+    -webkit-font-smoothing: antialiased;
+    background: #f6f6f6;
+    line-height: 1.42;
+}
+
+.wrapper {
+	position: relative;
+	min-height: 100%;
+	overflow: hidden;
+	min-width: 960px;
+}
+
+.wrapper::after {
+	content: '';
+	height: 50px;
+	display: block;
+}
+
+body {
+	margin: 0;
+}
+div {
+	display: block;
+}
+
+.container {
+	max-width: 940px;
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.clearfix::before, .clearfix::after {
+	content: "";
+	width: 100%;
+	clear: both;
+	display: block;
+}

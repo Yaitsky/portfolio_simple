@@ -1,0 +1,44 @@
+.sidebar {
+	width: 210px;
+	float: left;
+	margin: 0;
+}
+
+.navbar {
+	 
+}
+
+.navbar__menu {
+	text-align: right;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar__item {
+	list-style-type: none;
+	font-size: 18px;
+	line-height: 24px;
+	padding: 10px 24px 10px 0;
+}
+
+.navbar__item_active {
+	border-right: 6px solid #33c1e3;
+	padding: 10px 18px 10px 0;
+}
+
+.navbar__link {
+	text-decoration: none;
+	color: #414141;
+}
+
+.navbar__link:hover {
+	color: #33c1e3;
+}
+
+.navbar__link_active {
+	color: #33c1e3;
+}
+
+.fa_sidebar {
+	margin-right: 10px;
+}

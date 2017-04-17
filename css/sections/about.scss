@@ -1,0 +1,80 @@
+.about {
+	width: 730px;
+	float: right;
+	margin: 0;
+	margin-bottom: 60px;
+}
+
+.about__left {
+	width: 47%;
+	float: left;
+}
+
+.about__logo {
+	margin: 5px 0 0 60px;
+}
+
+.about__img {
+	height: 220px;
+	width: 220px;
+	border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.about__right {
+	width: 53%;
+	float: right;
+}
+
+.about__title {
+	color: #414141;
+	font-family: 'FiraSans-Medium';
+	font-size: 35px;
+	line-height: 45px;
+	margin: 0;
+}
+
+.about__text {
+	margin-top: 22px;
+	height: 310px;
+    overflow-y: auto;
+}
+
+.about__text p {
+	color: #646464;
+	font-family: 'FiraSans-Light';
+	font-size: 18px;
+	margin: 0;
+	line-height: 26px;
+}
+
+.resume {
+	margin-top: 40px;
+	text-align: right;
+}
+
+.resume__download {
+	color: #e85f61;
+	font-family: 'FiraSans-Bold';
+	font-size: 14px;
+	line-height: 28px;
+	padding: 7px 20px;
+	border: 2px solid #e85f61;
+	text-decoration: none;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.resume__download:hover {
+	color:#fff;
+	border: 2px solid #e85f61;
+	background-color: #e85f61;
+}
+
+.fa_resume {
+	margin-right: 10px;
+}

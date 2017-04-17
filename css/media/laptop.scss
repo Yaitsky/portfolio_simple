@@ -1,0 +1,53 @@
+@media screen and (max-width: 992px) {
+	//container
+	.container {
+	max-width: 750px;
+	margin: 0 auto;
+	position: relative;
+	}
+	.wrapper {
+	position: relative;
+	min-height: 100%;
+	overflow: hidden;
+	min-width:750px;
+	}
+
+	//header 
+	.contacts__info {
+	right: 0px;
+	bottom: -129px;
+	}
+	.contacts__info::before, .contacts__info::after {
+    left: 150px; bottom: 111px;
+    border: 13px solid transparent;
+    border-bottom: 13px solid #eeeeee;
+   	}
+ 	.contacts__info::after {
+    border-bottom: 13px solid white;
+    bottom: 109px; 
+   	}
+
+	//sidebar
+	.sidebar {
+		width:100%;
+	}
+	.navbar__menu {
+		text-align:center;
+		font-size:0px;
+		margin-bottom: 25px;
+	}
+	.navbar__item {
+		display:inline-block;
+		padding:10px;
+		border:0;
+		margin-left:5%;
+	}
+	.navbar__item:first-child {
+		margin-left:0;
+	}
+	.navbar__item_active {
+		border-bottom: 6px solid #33c1e3;
+	}
+
+
+}

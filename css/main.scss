@@ -1,0 +1,22 @@
+//colors
+
+//layout, fonts
+@import "layout/fonts.scss";
+
+@import "layout/adjustment.scss";
+@import "layout/normalize.scss";
+
+//sections
+@import "sections/header.scss";
+@import "sections/sidebar.scss";
+@import "sections/about.scss";
+@import "sections/career.scss";
+@import "sections/portfolio.scss";
+@import "sections/footer.scss";
+@import "sections/hello.scss";
+
+//media
+@import "media/desktop.scss";
+@import "media/laptop.scss";
+@import "media/tablets.scss";
+@import "media/phone.scss";

@@ -1,0 +1,157 @@
+@media screen and (max-width: 768px) {
+	//container
+	.container {
+	max-width: 460px;
+	margin: 0 auto;
+	position: relative;
+	}
+	.wrapper {
+	position: relative;
+	min-height: 100%;
+	overflow: hidden;
+	min-width:460px;
+	}
+	//header
+	.contacts {
+		margin-top: 13px;
+	}
+	.contacts__desktop {
+		display:none;
+	}
+
+	.fa-contacts__adaptive {
+		display:block;
+	}
+	.contacts__info {
+	right: 0px;
+	bottom: -120px;
+	}
+	.contacts__info::before, .contacts__info::after {
+    left: 170px; bottom: 111px;
+    border: 13px solid transparent;
+    border-bottom: 13px solid #eeeeee;
+   	}
+ 	.contacts__info::after {
+    border-bottom: 13px solid white;
+    bottom: 109px; 
+   	}
+
+	//sidebar
+	.sidebar {
+	width:100%;
+	}
+	.navbar__menu {
+	text-align:center;
+	font-size:0px;
+	margin-bottom: 25px;
+	}
+	.navbar__item {
+	font-size:16px;
+	margin-left:4%;
+	}
+	.navbar__item:first-child {
+	margin-left:0;
+	}
+	.navbar__item_active {
+	border-bottom: 6px solid #33c1e3;
+	}
+	//about
+	.about {
+	width:100%;
+	}
+	.about__left {
+	width: 100%;
+	float:none;
+	}
+	.about__logo {
+	margin:0 auto;
+	}
+	.about__img {
+	display:block;
+	margin:0 auto;
+	}
+	.about__right {
+	width: 90%;
+	float:none;
+	margin:0 auto;
+	padding-bottom:25px;
+	}
+	.about__title {
+	margin-top: 22px;
+	text-align:center;
+	}
+	.about__text p {
+	font-size: 16px;
+	}
+
+	//career
+	.content {
+		width:100%;
+		margin-bottom:20px;
+	}
+	.career {
+		margin:0;
+	}
+	.career__head {
+		text-align:center;
+	}
+	.career__left {
+		width:100%;
+		float:none;
+		text-align:center;
+		margin-bottom:20px;
+	}
+	.career__logo {
+		margin:0 auto;
+	}
+	.career__right {
+		width: 100%;
+		float:none;
+	}
+
+
+	//portfolio
+	.portfolio {
+		width: 100%;
+	}
+	.portfolio__title {
+		margin:0 0 20px 0;
+		text-align:center;
+	}
+	.portfolio__gallery {
+	margin:0;
+	padding: 0;
+	font-size: 0;
+	}
+	.gallery__item {
+    margin: 0 0 20px 20px;
+	}
+	.gallery__item:nth-child(3n+1) {
+	margin-left: 20px;
+	}
+	.gallery__item:nth-child(2n+1) {
+	margin-left:0;
+	}
+
+	//footer
+	.wrapper::after {
+	
+	}
+	.footer {
+		height:90px;
+	}
+	.footer__left {
+		width:100%;
+		float:none;
+		text-align:center;
+	}
+	.footer__right {
+		width:100%;
+		float:none;
+		text-align:center;
+	}
+	.social {
+		float:none;
+	}
+
+}

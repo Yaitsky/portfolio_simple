@@ -1,0 +1,129 @@
+@media screen and (max-width: 480px) {
+	//container
+	.container {
+	max-width: 95%;
+	margin: 0 auto;
+	position: relative;
+	}
+	.wrapper {
+	position: relative;
+	min-height: 100%;
+	overflow: hidden;
+	min-width: 320px;
+	}
+	//header 
+	.header__left {
+		width:65%
+	}
+	.header__right {
+		width: 35%;
+	}
+	.user__name {
+		font-size:16px;
+	}
+	.contacts {
+		margin-top: 16px;
+	}
+	.contacts__menu {
+		font-size:16px;
+	}
+	.contacts__desktop {
+		display:none;
+	}
+	.fa-contacts__adaptive {
+		display:block;
+	}
+
+	//sidebar
+	.navbar__menu {
+	text-align:center;
+	font-size:0px;
+	margin-bottom: 25px;
+	}
+	.navbar__item {
+	font-weight: 700;
+	font-size:15px;
+	margin-left:0;
+	padding:5px 5px 5px 5px;
+	}
+	.navbar__item_active {
+	border-bottom: 3px solid #33c1e3;
+	}
+	.fa-sidebar__hide {
+		display:none;
+	}
+
+	//about
+	.about__text {
+	height:auto;
+    overflow-y: none;
+	}
+	.resume {
+	margin-top: 40px;
+	text-align: center;
+	}
+
+	//career
+	.career__item {
+		padding-left:0;
+		text-align:center;
+	}
+	.career__block {
+		margin:0 0 20px 0;
+		width:95%;
+		display:inline-block;
+		text-align:left;
+	}
+	.career__title {
+	font-size: 18px;
+	}
+	.career__text {
+	font-size: 16px;
+	}
+	.career__item:first-child .career__block::after {
+	display:none;
+	}
+
+	.career__item:last-child .career__block::after {
+	display:none;
+	}
+	.career__block::after, .career__block::before {
+	display:none;
+	}
+	.career__block::after {
+	display:none;
+	}
+	.career__year {
+	display:none;
+	}
+	.career__year::after {
+	display:none;
+	}
+
+	//portfolio
+	.portfolio__gallery {
+		text-align:center;
+		margin-bottom:20px;
+	}
+	.gallery__item {
+    margin:0 0 20px 0;
+    text-align:left;
+	}
+	.gallery__item:nth-child(3n+1) {
+	margin:0 0 20px 0;
+	}
+	.gallery__item:nth-child(2n+1) {
+	margin:0 0 20px 0;
+	}
+
+	//footer
+	.footer {
+		height:90px;
+	}
+
+}
+@media screen and (max-width: 372px) {
+	.footer {
+		height:110px;
+	}
+}
